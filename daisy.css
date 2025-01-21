@@ -1,0 +1,127 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+.sidebar {
+    width: 300px;
+    background: #ffffff;
+    height: 100vh;
+    padding: 1rem;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+}
+.sidebar h1 {
+    font-size: 1.5rem;
+    color: #ff7eb3;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu li {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.menu li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.menu li a:hover {
+    color: #ff7eb3;
+}
+.menu li a .icon {
+    font-size: 1.5rem;
+}
+.profile {
+    text-align: center;
+    margin-top: 2rem;
+}
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center top;
+    margin-bottom: 1rem;
+}
+.profile h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+.profile p {
+    font-size: 0.9rem;
+    color: #666;
+}
+.profile .actions {
+    margin-top: 1rem;
+}
+.profile .actions button {
+    background: linear-gradient(90deg, #ff7eb3, #ff758c);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 0.5rem;
+    font-size: 0.9rem;
+}
+.profile .actions button:hover {
+    opacity: 0.9;
+}
+main {
+    margin-left: 320px;
+    padding: 2rem;
+}
+.stats {
+    display: flex;
+    justify-content: space-around;
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    position: relative;
+}
+.stats div {
+    text-align: center;
+}
+.stats div h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #ff7eb3;
+}
+.stats div p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+#chat img {
+    cursor: pointer;
+}
+#chat {
+    text-align: center;
+}
